@@ -1,0 +1,52 @@
+#maincontent{
+    background-color: #00B0FF;
+    width: 100%;
+    height: 180px;
+}
+
+#maincontent .header{
+    padding: 20px;
+}
+
+#maincontent .header .wel{
+    color: snow;
+    font-size: 25px;
+    text-align: right;
+}
+
+#maincontent .header .con{
+    color: snow;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 40px;
+}
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+    margin-top: 3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-single{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px #00B0FF;
+}
+
+.card-single span:last-child{
+    color: #00B0FF;
+}
+
+.card-single span:first-child{
+    
+    font-size:3rem;
+}
+
